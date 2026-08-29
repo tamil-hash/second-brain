@@ -17,9 +17,19 @@ const completePath = `src/${path}`;
 const projectFolder = join('src', path);
 mkdirSync(projectFolder, { recursive: true });
 
-const componentData = `export default const ${componentName} = ({}) => {return <p>${componentName}</p>}`;
-const indexFileData = `import ${componentName} from './${componentName}'; export default ${componentName}`;
+const componentData = `const ${componentName} = () => {
+  return <p>${componentName}</p>;
+};
+
+export default ${componentName};
+`;
+
+const indexFileData = `export { default } from './${componentName}';
+`;
 
 writeFileSync(join(completePath, `${componentName}.tsx`), componentData);
 writeFileSync(join(completePath, "index.ts"), indexFileData);
-writeFileSync(join(completePath, `${componentName}.css`), indexFileData);
+writeFileSync(join(completePath, `${componentName}.css`), "");
+
+
+console.log(`Created ${componentName} Component Successfully.`)
