@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Second Brain favicon</title>
+<desc>A simplified circular favicon: a purple circle with a plain white brain silhouette, stripped of detail for legibility at small sizes.</desc>
+<defs>
+<path id="brain" d="M130,235 C105,235 95,205 112,185 C100,160 122,135 150,140 C158,115 195,110 215,133 C245,133 255,163 238,180 C252,200 232,222 205,213 C198,233 160,238 148,218 C138,228 125,228 130,235 Z"/>
+</defs>
+
+<circle cx="100" cy="100" r="100" fill="#4C3FE0"/>
+<use href="#brain" fill="#FFFFFF" transform="translate(-22.5,-38.2) scale(0.7)"/>
+</svg>

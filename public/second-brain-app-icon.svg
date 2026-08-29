@@ -1,0 +1,31 @@
+<svg width="512" height="512" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Second Brain app icon</title>
+<desc>A purple rounded-square app icon with a white stylized brain silhouette overlaid with small amber dots and connecting lines representing notes, expenses, diary, reminders and habits converging into one central insight node.</desc>
+<defs>
+<path id="brain" d="M130,235 C105,235 95,205 112,185 C100,160 122,135 150,140 C158,115 195,110 215,133 C245,133 255,163 238,180 C252,200 232,222 205,213 C198,233 160,238 148,218 C138,228 125,228 130,235 Z"/>
+</defs>
+
+<rect x="40" y="40" width="320" height="320" rx="64" fill="#4C3FE0"/>
+<use href="#brain" fill="#FFFFFF" transform="translate(40,40) scale(1.14)"/>
+<path d="M175,120 C165,150 180,180 168,210" fill="none" stroke="#D9D4FB" stroke-width="4.5" stroke-linecap="round" transform="translate(40,40) scale(1.14)"/>
+
+<g transform="translate(40,40) scale(1.14)">
+<line x1="130" y1="160" x2="178" y2="175" stroke="#F2A93B" stroke-width="2.5"/>
+<line x1="200" y1="135" x2="178" y2="175" stroke="#F2A93B" stroke-width="2.5"/>
+<line x1="235" y1="175" x2="178" y2="175" stroke="#F2A93B" stroke-width="2.5"/>
+<line x1="150" y1="205" x2="178" y2="175" stroke="#F2A93B" stroke-width="2.5"/>
+<line x1="185" y1="215" x2="178" y2="175" stroke="#F2A93B" stroke-width="2.5"/>
+
+<circle cx="130" cy="160" r="8" fill="#F2A93B"/>
+<circle cx="200" cy="135" r="8" fill="#F2A93B"/>
+<circle cx="235" cy="175" r="8" fill="#F2A93B"/>
+<circle cx="150" cy="205" r="8" fill="#F2A93B"/>
+<circle cx="185" cy="215" r="8" fill="#F2A93B"/>
+
+<line x1="170" y1="167" x2="163" y2="160" stroke="#F2A93B" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="186" y1="167" x2="193" y2="160" stroke="#F2A93B" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="170" y1="183" x2="163" y2="190" stroke="#F2A93B" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="186" y1="183" x2="193" y2="190" stroke="#F2A93B" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="178" cy="175" r="11" fill="#F2A93B"/>
+</g>
+</svg>
